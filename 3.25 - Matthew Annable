@@ -1,0 +1,34 @@
+int GREEN = 10;
+int BLUE = 3;
+
+void setup(){
+  pinMode(GREEN, OUTPUT);
+  pinMode(BLUE, OUTPUT);
+  digitalWrite(GREEN, HIGH);
+  delay(500);
+  digitalWrite(GREEN, LOW);
+  delay(500);
+  digitalWrite(GREEN, HIGH);
+  delay(500);
+  digitalWrite(GREEN, LOW);
+  delay(500);
+  digitalWrite(BLUE, HIGH);
+  delay(250);
+  digitalWrite(BLUE, LOW);
+  delay(1000);
+  digitalWrite(BLUE, HIGH);
+  delay(250);
+  digitalWrite(BLUE, LOW);
+  delay(1000);digitalWrite(BLUE, HIGH);
+  delay(250);
+  digitalWrite(BLUE, LOW);
+  delay(2000);
+}
+void loop(){
+  digitalWrite(GREEN, HIGH);
+  digitalWrite(BLUE, HIGH);
+  delay(500);
+  digitalWrite(GREEN, LOW);
+  digitalWrite(BLUE, LOW);
+  delay(200);
+  }
